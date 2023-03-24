@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    position: sticky;
+    gap: 0;
+}
+
+.nav-container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(140, 180, 180);
+    
+}
+
+.nav-left{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left > span{
+    padding-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav-left > span > a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-right {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-right > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav-right > ul > li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-right > ul > li > a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+.home-container {
+    height: calc(100vh - 50px);
+    width: 100%;
+    background-image: url('./images/carousel-photo-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container > span {
+    color: white;
+    font-size: 65px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-container > p{
+    color: white;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-container > button {
+    height: 70px;
+    width: 250px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: none;
+    background-color: azure;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-container > button:hover {
+    background-color: rgb(30, 61, 61);
+    color: white;
+}
+
+.about-container {
+     height: 80vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.about-photo {
+    padding: 10px 20px;
+}
+
+.course-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-row{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portrait-photgraphy {
+    height: 25vh;
+    width: 30%;
+    border: 2px solid gray;
+    
+}
+
+.portrait-photgraphy:hover {
+    scale: 1.1;
+}
+
+.portrait-photgraphy > a > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.contact-form {
+   height: calc(100vh - 100px);
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact-form-left{
+    height: 90%;
+    width: 40%;
+}
+
+.contact-form-right{
+    
+    height: 90%;
+    width: 40%;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+
+
+input {
+    height: 35px;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    margin: 10px 10px;
+}
+ 
+#submit-btn {
+    height: 40px;
+    width: 250px;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(149, 221, 221);
+    margin-left: 30%;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(140, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
